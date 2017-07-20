@@ -4,12 +4,10 @@ let HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     context: __dirname + '/frontend',
-    entry: {
-        pug: './main'
-    },
+    entry: './main',
     output: {
         path: __dirname + '/public',
-        filename: '[name].js'
+        filename: 'main.js'
     },
 
     plugins: [
@@ -36,10 +34,13 @@ module.exports = {
             loader: 'style!css!autoprefixer?browsers=last 2 versions'
         }, {
             test:   /\.styl$/,
-            loader: 'style!css!autoprefixer?browsers=last 2 versions!stylus?resolve url'
+            loader: 'style-loader!css-loader!stylus-loader?resolve url'
         }, {
             test: /\.pug$/,
             loader: 'pug-loader'
+        }, {
+            test: /\.(png|ipg|svg|ttf|eot|woff|woff2)$/,
+            loader: 'file-loader?name=[path][name].[ext]'
         }]
     },
 
