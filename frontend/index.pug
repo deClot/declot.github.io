@@ -7,4 +7,21 @@ html
     meta(charset="utf=8")
     script(src="main.js")
   body
-    h1 Hi!
+    include /components/name/name
+    include /components/profile/profile
+    include /components/skills/skills
+    include /components/education/education
+    include /components/experience/experience
+    include /components/software/software
+    
+    div.block 
+      +profile
+    div.block
+      +skills
+    
+    div.block
+      +education
+    div.block
+      +experience
+    div.block
+      +software
