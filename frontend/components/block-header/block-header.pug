@@ -1,6 +1,7 @@
-mixin block-header(name)  
+mixin block-header(name,namesvg)  
   include ../circle/circle
   div
-    +circle(33,36,1)
-
+    img(src=require("./svg-fig/"+namesvg+".svg") width="100px")
     span.header-title= name
+    
+    //-    +circle(33,36,1)
