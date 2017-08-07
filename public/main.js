@@ -514,6 +514,18 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ini_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ini_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_contact_contact_styl__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_contact_contact_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_skills_skills_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_skills_skills_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_education_education_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_education_education_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_statusbar_rectangle_statusbar_rectangle_styl__);
+
+
+
+
 
 
 
@@ -713,6 +725,186 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 // module
 exports.push([module.i, "svg {\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: bold;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  vertical-align: middle;\n  box-sizing: border-box;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 10 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(11);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 11 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".contact div.text {\n  float: left;\n  width: 50%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 12 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(13);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "", ""]);
+
+// exports
+
+
+/***/ }),
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(15);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 16 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(17);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "div.statusbar-rectangle {\n  float: left;\n}\ndiv.rectangle {\n  width: 304.6px;\n  height: 24.5px;\n}\n.software p {\n  text-transform: uppercase;\n  font-weight: normal;\n}\n", ""]);
 
 // exports
 

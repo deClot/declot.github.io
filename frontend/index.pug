@@ -6,22 +6,27 @@ html
     title CV
     meta(charset="utf=8")
     script(src="main.js")
+    script(src="https://use.fontawesome.com/75f49c3f17.js")
   body
     include /components/name/name
     include /components/profile/profile
+    include /components/contact/contact
     include /components/skills/skills
     include /components/education/education
     include /components/experience/experience
     include /components/software/software
     
-    div.block 
+    +name
+    div(class="block profile")  
       +profile
-    div.block
+    div(class="block contact")  
+      +contact  
+    div(class="block skills")  
       +skills
     
-    div.block
+    div(class="block education")  
       +education
-    div.block
+    div(class="block experience") 
       +experience
-    div.block
+    div(class="block software") 
       +software

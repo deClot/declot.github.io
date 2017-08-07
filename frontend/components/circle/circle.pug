@@ -1,0 +1,5 @@
+mixin circle(radius_min,radius_max,width)
+  svg(width=2*radius_max+1+'px', height=2*radius_max+1+'px')
+    circle(cx=radius_max+'px', cy=radius_max+'px', r=radius_max+'px', fill="white",
+    stroke="#3d6cb0", stroke-width=width+'px')
+    circle(cx=radius_max+'px', cy=radius_max+'px', r=radius_min+'px', fill="#3d6cb0")
