@@ -514,14 +514,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ini_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ini_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl__ = __webpack_require__(8);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_contact_contact_styl__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_contact_contact_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_skills_skills_styl__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_education_education_styl__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_education_education_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_statusbar_rectangle_statusbar_rectangle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_name_name_styl__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_name_name_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_name_name_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_contact_contact_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_contact_contact_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_skills_skills_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_skills_skills_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_education_education_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_education_education_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_statusbar_rectangle_statusbar_rectangle_styl__);
+
 
 
 
@@ -572,7 +575,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n  src: url(" + __webpack_require__(6) + ");\n}\nbody {\n  width: 1900px;\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n  src: url(" + __webpack_require__(6) + ");\n}\nbody {\n  max-width: 1240px;\n  box-sizing: border-box;\n  padding-left: 60px;\n  padding-top: 76px;\n  margin: 0 auto;\n}\n.column-1,\n.column-2 {\n  float: left;\n  border: 1px solid #000;\n}\n.column-1 {\n  width: 35%;\n  margin-right: 76px;\n}\n.column-2 {\n  width: 53.474576%;\n}\n@media screen and (max-width: 600px) {\n  .column-1,\n  .column-2 {\n    width: 100;\n  }\n}\n", ""]);
 
 // exports
 
@@ -724,7 +727,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "svg {\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: bold;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  vertical-align: middle;\n  box-sizing: border-box;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
+exports.push([module.i, "div.block-header {\n  width: 100%;\n  overflow: hidden;\n}\ndiv.block-header .helper {\n  display: inline-block;\n  height: 100%;\n}\nimg.icon {\n  padding-top: 5px;\n  height: 100%;\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: bold;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  vertical-align: middle;\n  box-sizing: border-box;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
 
 // exports
 
@@ -750,8 +753,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./name.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./name.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -769,7 +772,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact div.text {\n  float: left;\n  width: 50%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n", ""]);
+exports.push([module.i, "div.img {\n  display: block;\n  text-align: center;\n  padding-top: 12px;\n  padding-left: 15px;\n  margin: 0;\n}\n.name p {\n  margin: 0;\n}\np.name {\n  text-transform: uppercase;\n  font-size: 51px;\n  text-align: center;\n  padding-top: 24px;\n  padding-left: 25px;\n  font-weight: 400;\n  word-spacing: -3px;\n}\np.surname {\n  font-weight: bold;\n  text-transform: uppercase;\n  font-size: 58px;\n  text-align: center;\n  margin-top: -11px;\n  padding-left: 6px;\n  letter-spacing: -5px;\n}\np.position {\n  text-transform: uppercase;\n  text-align: center;\n  font-size: 23px;\n  padding-top: 4px;\n  padding-left: 12px;\n  letter-spacing: -2px;\n  font-weight: 600;\n}\n", ""]);
 
 // exports
 
@@ -795,8 +798,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -814,7 +817,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".contact div.text {\n  float: left;\n  width: 50%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n", ""]);
 
 // exports
 
@@ -840,8 +843,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -859,7 +862,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -885,6 +888,51 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 18 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(19);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
 		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl", function() {
 			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
@@ -896,7 +944,7 @@ if(false) {
 }
 
 /***/ }),
-/* 17 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);

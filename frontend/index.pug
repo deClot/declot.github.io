@@ -16,18 +16,20 @@ html
     include /components/experience/experience
     include /components/software/software
     
-    +name
-    div(class="block profile")  
-      +profile
-    div(class="block contact")  
-      +contact  
-    div(class="block skills")  
-      +skills
-    
-    div(class="block education")  
-      +education
-    div(class="block experience") 
-      +experience
-    div(class="block software") 
-      +software
+    div.column-1
+      div(class="block name")  
+        +name
+      div(class="block profile")  
+        +profile
+      div(class="block contact")  
+        +contact  
+      div(class="block skills")  
+        +skills
+    div.column-2 
+      div(class="block education")  
+        +education
+      div(class="block experience") 
+        +experience
+      div(class="block software") 
+        +software
 
