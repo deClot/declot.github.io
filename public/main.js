@@ -516,15 +516,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_name_name_styl__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_name_name_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_name_name_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__);
 
 
@@ -801,8 +801,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./profile.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./profile.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -820,7 +820,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact div.text {\n  float: left;\n  width: 50%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n", ""]);
+exports.push([module.i, ".profile p.block-context {\n  line-height: 17px;\n}\n.profile div.block-header {\n  margin-top: 77px;\n}\n", ""]);
 
 // exports
 
@@ -846,8 +846,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./contact.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -865,7 +865,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".contact div.block-header {\n  margin-bottom: 15px;\n}\n.contact div.text-head {\n  float: left;\n  width: 30.917874%;\n}\n.contact div.text-content {\n  float: left;\n  width: 68.082126%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n.contact p.head,\n.contact p.content {\n  padding: 0;\n  margin: 0;\n  font-size: 19px;\n  letter-spacin: -2px;\n  font-stretch: extra-condensed;\n  line-height: 55px;\n  vertical-align: middle;\n}\n", ""]);
 
 // exports
 
@@ -891,8 +891,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./skills.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -910,7 +910,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
+exports.push([module.i, "", ""]);
 
 // exports
 
@@ -936,8 +936,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -955,7 +955,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "div.statusbar-rectangle {\n  float: left;\n}\ndiv.rectangle {\n  width: 304.6px;\n  height: 24.5px;\n}\n.software p {\n  text-transform: uppercase;\n  font-weight: normal;\n}\n", ""]);
+exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
 
 // exports
 
@@ -981,8 +981,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./profile.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./profile.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -1000,7 +1000,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".profile p.block-context {\n  line-height: 17px;\n}\n.profile div.block-header {\n  margin-top: 77px;\n}\n", ""]);
+exports.push([module.i, "div.statusbar-rectangle {\n  float: left;\n}\ndiv.rectangle {\n  width: 304.6px;\n  height: 24.5px;\n}\n.software p {\n  text-transform: uppercase;\n  font-weight: normal;\n}\n", ""]);
 
 // exports
 
