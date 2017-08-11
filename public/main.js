@@ -516,14 +516,17 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__components_block_header_block_header_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_name_name_styl__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_name_name_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__components_name_name_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_contact_contact_styl__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_contact_contact_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_skills_skills_styl__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_education_education_styl__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_education_education_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_statusbar_rectangle_statusbar_rectangle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3__components_profile_profile_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__);
+
 
 
 
@@ -575,7 +578,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n  src: url(" + __webpack_require__(6) + ");\n}\nbody {\n  max-width: 1240px;\n  box-sizing: border-box;\n  padding-left: 60px;\n  padding-top: 76px;\n  margin: 0 auto;\n}\n.column-1,\n.column-2 {\n  float: left;\n  border: 1px solid #000;\n}\n.column-1 {\n  width: 35%;\n  margin-right: 76px;\n}\n.column-2 {\n  width: 53.474576%;\n}\n@media screen and (max-width: 600px) {\n  .column-1,\n  .column-2 {\n    width: 100;\n  }\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n  src: url(" + __webpack_require__(6) + ");\n}\nbody {\n  max-width: 1240px;\n  box-sizing: border-box;\n  padding-left: 61px;\n  padding-top: 76px;\n  margin: 0 auto;\n  font-size: 13px;\n}\n.column-1,\n.column-2 {\n  float: left;\n}\n.column-1 {\n  width: 35.029686%;\n  margin-right: 76px;\n}\n.column-2 {\n  width: 53.384095;\n}\ndiv.block {\n  padding: 0;\n  margin: 0;\n}\n@media screen and (max-width: 600px) {\n  .column-1,\n  .column-2 {\n    width: 100;\n  }\n}\n", ""]);
 
 // exports
 
@@ -727,7 +730,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "div.block-header {\n  width: 100%;\n  overflow: hidden;\n}\ndiv.block-header .helper {\n  display: inline-block;\n  height: 100%;\n}\nimg.icon {\n  padding-top: 5px;\n  height: 100%;\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: bold;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  vertical-align: middle;\n  box-sizing: border-box;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
+exports.push([module.i, "div.block-header {\n  width: 100%;\n  overflow: hidden;\n  margin-top: 47px;\n}\ndiv.block-header .helper {\n  display: inline-block;\n  height: 100%;\n}\nimg.icon {\n  height: 100%;\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: bold;\n  padding-left: 12px;\n  font-size: 38.5px;\n  font-stretch: semi-condensed;\n  letter-spacing: -2px;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  box-sizing: border-box;\n  vertical-align: middle;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
 
 // exports
 
@@ -953,6 +956,51 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 // module
 exports.push([module.i, "div.statusbar-rectangle {\n  float: left;\n}\ndiv.rectangle {\n  width: 304.6px;\n  height: 24.5px;\n}\n.software p {\n  text-transform: uppercase;\n  font-weight: normal;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(21);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./profile.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./profile.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".profile p.block-context {\n  line-height: 17px;\n}\n.profile div.block-header {\n  margin-top: 77px;\n}\n", ""]);
 
 // exports
 
