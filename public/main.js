@@ -522,10 +522,13 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4__components_contact_contact_styl__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5__components_skills_skills_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_education_education_styl__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(20);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_statusbar_rectangle_statusbar_rectangle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_statusbar_circle_statusbar_circle_styl__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_statusbar_circle_statusbar_circle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6__components_statusbar_circle_statusbar_circle_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_education_education_styl__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_education_education_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7__components_education_education_styl__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_statusbar_rectangle_statusbar_rectangle_styl__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_statusbar_rectangle_statusbar_rectangle_styl___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8__components_statusbar_rectangle_statusbar_rectangle_styl__);
+
 
 
 
@@ -730,7 +733,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "div.block-header {\n  width: 100%;\n  overflow: hidden;\n  margin-top: 47px;\n}\ndiv.block-header .helper {\n  display: inline-block;\n  height: 100%;\n}\nimg.icon {\n  height: 100%;\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: bold;\n  padding-left: 12px;\n  font-size: 38.5px;\n  font-stretch: semi-condensed;\n  letter-spacing: -2px;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  box-sizing: border-box;\n  vertical-align: middle;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
+exports.push([module.i, "div.block-header {\n  width: 100%;\n  overflow: hidden;\n}\ndiv.block-header .helper {\n  display: inline-block;\n  height: 100%;\n}\nimg.icon {\n  height: 100%;\n  vertical-align: middle;\n}\nspan.header-title {\n  text-transform: uppercase;\n  color: #3d6cb0;\n  font-size: 30px;\n  vertical-align: middle;\n  font-weight: 600;\n  padding-left: 12px;\n  font-size: 38px;\n  font-stretch: semi-condensed;\n  letter-spacing: -2px;\n}\nspan.header-title::after {\n  content: \"\";\n  display: inline-block;\n  box-sizing: border-box;\n  vertical-align: middle;\n  width: 100%;\n  height: 5px;\n  background-color: #3d6cb0;\n  border: solid #fff;\n  border-width: 0 10px;\n  margin-right: -100%;\n}\n", ""]);
 
 // exports
 
@@ -820,7 +823,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".profile p.block-context {\n  line-height: 17px;\n}\n.profile div.block-header {\n  margin-top: 77px;\n}\n", ""]);
+exports.push([module.i, ".profile p.block-context {\n  line-height: 17px;\n}\n.profile div.block-header {\n  padding-top: 77px;\n}\n", ""]);
 
 // exports
 
@@ -865,7 +868,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact div.block-header {\n  margin-bottom: 15px;\n}\n.contact div.text-head {\n  float: left;\n  width: 30.917874%;\n}\n.contact div.text-content {\n  float: left;\n  width: 68.082126%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n.contact p.head,\n.contact p.content {\n  padding: 0;\n  margin: 0;\n  font-size: 19px;\n  letter-spacin: -2px;\n  font-stretch: extra-condensed;\n  line-height: 55px;\n  vertical-align: middle;\n}\n", ""]);
+exports.push([module.i, ".contact div.block-header {\n  margin-bottom: 15px;\n  padding-top: 34px;\n}\n.contact div.text-head {\n  float: left;\n  width: 30.917874%;\n}\n.contact div.text-content {\n  float: left;\n  width: 68.082126%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n.contact p.head,\n.contact p.content {\n  padding: 0;\n  margin: 0;\n  font-size: 19px;\n  letter-spacin: -2px;\n  font-stretch: extra-condensed;\n  line-height: 55px;\n  vertical-align: middle;\n}\n", ""]);
 
 // exports
 
@@ -910,7 +913,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, ".skills div.block-header {\n  padding-top: 30px;\n  padding-bottom: 26px;\n}\n", ""]);
 
 // exports
 
@@ -936,8 +939,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
-			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-circle.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-circle.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -955,7 +958,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
+exports.push([module.i, ".statusbar-circle span.statusbar-name {\n  display: block;\n  width: 100%;\n  text-transform: uppercase;\n  text-align: center;\n  font-weight: normal;\n  font-size: 21px;\n  padding-bottom: 10px;\n}\n.statusbar-circle .svg-circle {\n  padding-left: 44px;\n  padding-bottom: 20px;\n}\n.statusbar-circle svg {\n  padding-right: 7.7px;\n}\n", ""]);
 
 // exports
 
@@ -981,6 +984,51 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./education.styl");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 21 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".education div.content,\n.experience div.content {\n  padding-left: 60px;\n  position: relative;\n}\n.education div.content::before,\n.experience div.content::before {\n  content: \"\\2022\";\n  position: absolute;\n  font-size: 40px;\n  left: 0px;\n  top: 0px;\n}\n.education p,\n.experience p {\n  font-size: 28px;\n  font-weight: normal;\n}\n.education span,\n.experience span {\n  text-transform: uppercase;\n  font-weight: bold;\n}\n.education span {\n  color: #3d6cb0;\n}\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 22 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(23);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
 		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl", function() {
 			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/stylus-loader/index.js?resolve url!./statusbar-rectangle.styl");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
@@ -992,7 +1040,7 @@ if(false) {
 }
 
 /***/ }),
-/* 21 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(0)(undefined);
