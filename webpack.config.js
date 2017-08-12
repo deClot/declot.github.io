@@ -6,7 +6,7 @@ module.exports = {
     context: __dirname + '/frontend',
     entry: './main',
     output: {
-        path: __dirname + '/public',
+        path: __dirname,
         filename: 'main.js'
     },
 
