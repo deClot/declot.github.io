@@ -4,32 +4,40 @@
   src url(fonts/MyriadPro-Regular.ttf)  
 
 body
-  max-width 1240px  //- 1179
+  max-width 1240px  //- 1122
+  width 100%
   box-sizing border-box
   padding-left 61px
+  padding-right 57px
   padding-top 75px
   margin 0 auto
 
   font-size: 13px
+  @media screen and (max-width: 900px)
+    body
+      padding-left 4.919355% //-61px
+      padding-right 4.596774% //-57px
+    .column-1
+    .column-2
+      width 100%
+  
+.column-1
+  width 36.809269%//-35.029686% //-413px
+  margin-right 6.862745% //-77px 
+
+.column-2
+  width 56.238859%//-53.60475% //-632px
 
 .column-1
 .column-2
   float left
 
-.column-1
-  width 35.029686% //-413px
-  margin-right 77px
-
-.column-2
-  width 53.60475% //-632px
-
 div.block
+  width 100%
   padding 0
   margin 0
 
-@media screen and (max-width: 600px)
-  .column-1
-  .column-2
-    width 100
+
+    
 
     

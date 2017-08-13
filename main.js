@@ -587,7 +587,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n  src: url(" + __webpack_require__(6) + ");\n}\nbody {\n  max-width: 1240px;\n  box-sizing: border-box;\n  padding-left: 61px;\n  padding-top: 75px;\n  margin: 0 auto;\n  font-size: 13px;\n}\n.column-1,\n.column-2 {\n  float: left;\n}\n.column-1 {\n  width: 35.029686%;\n  margin-right: 77px;\n}\n.column-2 {\n  width: 53.60475%;\n}\ndiv.block {\n  padding: 0;\n  margin: 0;\n}\n@media screen and (max-width: 600px) {\n  .column-1,\n  .column-2 {\n    width: 100;\n  }\n}\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: MyriadPro;\n  src: url(" + __webpack_require__(5) + ");\n  src: url(" + __webpack_require__(6) + ");\n}\nbody {\n  max-width: 1240px;\n  width: 100%;\n  box-sizing: border-box;\n  padding-left: 61px;\n  padding-right: 57px;\n  padding-top: 75px;\n  margin: 0 auto;\n  font-size: 13px;\n}\n@media screen and (max-width: 900px) {\n  body body {\n    padding-left: 4.919355%;\n    padding-right: 4.596774%;\n  }\n  body .column-1,\n  body .column-2 {\n    width: 100%;\n  }\n}\n.column-1 {\n  width: 36.809269%;\n  margin-right: 6.862745%;\n}\n.column-2 {\n  width: 56.238859%;\n}\n.column-1,\n.column-2 {\n  float: left;\n}\ndiv.block {\n  width: 100%;\n  padding: 0;\n  margin: 0;\n}\n", ""]);
 
 // exports
 
@@ -874,7 +874,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".contact div.block-header {\n  margin-bottom: 15px;\n  padding-top: 34px;\n}\n.contact div.text-head {\n  float: left;\n  width: 30.917874%;\n}\n.contact div.text-content {\n  float: left;\n  width: 68.082126%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n.contact p.head,\n.contact p.content {\n  padding: 0;\n  margin: 0;\n  font-size: 19px;\n  letter-spacin: -2px;\n  font-stretch: extra-condensed;\n  line-height: 55px;\n  vertical-align: middle;\n}\n", ""]);
+exports.push([module.i, ".contact div.block-header {\n  margin-bottom: 15px;\n  padding-top: 34px;\n}\n.contact div.text-head {\n  float: left;\n  width: 30.917874%;\n}\n.contact div.text-content {\n  float: left;\n  width: 68.082126%;\n}\n.contact p.head {\n  text-transform: uppercase;\n  color: #3d6cb0;\n}\n.contact p.content {\n  color: #000;\n  font-weight: normal;\n}\n.contact p.head,\n.contact p.content {\n  padding: 0;\n  margin: 0;\n  letter-spacin: -2px;\n  font-size: 19px;\n  font-stretch: extra-condensed;\n  line-height: 55px;\n  vertical-align: middle;\n}\n@media screen and (min-width: 900px) and (max-width: 945px) {\n  .contact p.head,\n  .contact p.content {\n    font-size: 16px;\n  }\n}\n", ""]);
 
 // exports
 
@@ -964,7 +964,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, ".statusbar-circle span.statusbar-name {\n  display: block;\n  width: 100%;\n  text-transform: uppercase;\n  text-align: center;\n  font-weight: normal;\n  font-size: 21px;\n  padding-bottom: 10px;\n}\n.statusbar-circle .svg-circle {\n  padding-left: 44px;\n  padding-bottom: 20px;\n}\n.statusbar-circle svg {\n  padding-right: 7.7px;\n}\n", ""]);
+exports.push([module.i, "div.statusbar-circle {\n  width: 100%;\n}\n.statusbar-circle span.statusbar-name {\n  display: block;\n  width: 100%;\n  text-transform: uppercase;\n  text-align: center;\n  font-weight: normal;\n  font-size: 21px;\n  padding-bottom: 10px;\n}\n.statusbar-circle span.svg-circle {\n  display: block;\n  idth: 100%;\n  text-align: center;\n  padding-bottom: 20px;\n  margin-left: 2px;\n}\n.statusbar-circle svg {\n  padding-right: 1.961259%;\n}\n.statusbar-circle svg:last-child {\n  padding-right: 0;\n}\n", ""]);
 
 // exports
 
@@ -1144,7 +1144,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 
 
 // module
-exports.push([module.i, "div.statusbar-rectangle {\n  float: left;\n  padding-left: 7px;\n  margin-bottom: 25px;\n}\ndiv.statusbar-rectangle:nth-child(even) {\n  padding-right: 63px;\n}\ndiv.statusbar-rectangle:nth-child(n+6) p {\n  padding-bottom: 10px;\n}\ndiv.rectangle {\n  width: 277px;\n  height: 22px;\n}\n.software p {\n  padding: 0;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  padding-bottom: 16px;\n  font-size: 22px;\n}\n", ""]);
+exports.push([module.i, "div.statusbar-rectangle {\n  width: 43.829114%;\n  box-sizing: border-box;\n  float: left;\n  margin-left: 1.107595%;\n  margin-bottom: 25px;\n}\ndiv.statusbar-rectangle:nth-child(even) {\n  margin-right: 9.968354%;\n}\ndiv.statusbar-rectangle:nth-child(n+6) p {\n  padding-bottom: 10px;\n}\ndiv.rectangle {\n  height: 22px;\n  width: 100%;\n}\n.software p {\n  padding: 0;\n  margin: 0;\n  text-transform: uppercase;\n  font-weight: normal;\n  padding-bottom: 16px;\n  font-size: 22px;\n}\n", ""]);
 
 // exports
 
